@@ -5,11 +5,6 @@ Based on https://github.com/nverno/vbs-mode
 
 # Installation #
 
-``` emacs-lisp
-dotspacemacs-configuration-layers
-'(
-     (vbscript :location
-                        (recipe :fetcher github
-                                :repo "Patriot720/spacemacs-vbs-layer"))
-)
-```
+Install with `git clone https://github.com/Patriot720/spacemacs-vbs-layer ~/.emacs.d/private/vbscript`
+
+Then enable in your ~/.spacemacs by adding vbscript to dotspacemacs-configuration-layers
